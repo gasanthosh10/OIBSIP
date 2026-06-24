@@ -41,8 +41,25 @@ streamlit run Task2_Unemployment_Analysis/app.py
 ## Repository progress
 
 - [x] Task 2 — Unemployment Analysis with Python
-- [ ] Task 4 — Email Spam Detection with Machine Learning
+- [x] Task 4 — Email Spam Detection with Machine Learning
 - [ ] Task 5 — Sales Prediction Using Python
+
+## Task 4 — Email Spam Detection
+
+This project uses TF-IDF text features and class-balanced logistic regression
+to classify messages as legitimate or spam.
+
+### Verified performance
+
+- Test accuracy: **97.68%**
+- Spam precision: **92.80%**
+- Spam recall: **88.55%**
+
+Run the interactive detector with:
+
+```bash
+streamlit run Task4_Email_Spam_Detection/app.py
+```
 
 ## Author
 
