@@ -42,7 +42,7 @@ streamlit run Task2_Unemployment_Analysis/app.py
 
 - [x] Task 2 — Unemployment Analysis with Python
 - [x] Task 4 — Email Spam Detection with Machine Learning
-- [ ] Task 5 — Sales Prediction Using Python
+- [x] Task 5 — Sales Prediction Using Python
 
 ## Task 4 — Email Spam Detection
 
@@ -60,6 +60,31 @@ Run the interactive detector with:
 ```bash
 streamlit run Task4_Email_Spam_Detection/app.py
 ```
+
+## Task 5 — Sales Prediction Using Python
+
+This project predicts sales from TV, radio, and newspaper advertising budgets.
+It compares linear regression and random forest on the same unseen test set,
+then saves the stronger model for interactive prediction.
+
+### Verified performance
+
+- Selected model: **Random Forest**
+- Test R²: **0.980**
+- Mean absolute error: **0.661 sales units**
+- Root mean squared error: **0.791 sales units**
+
+Run the interactive sales forecaster with:
+
+```bash
+streamlit run Task5_Sales_Prediction/app.py
+```
+
+## Submission
+
+Each task includes its dataset, source code, results or trained model, an
+interactive Streamlit application, and task-specific documentation. See
+`SUBMISSION_GUIDE.md` for demonstration and deployment instructions.
 
 ## Author
 
